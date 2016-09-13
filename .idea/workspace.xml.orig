@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
+    <list default="true" id="3d752bf9-5fa3-480e-b7fd-d9100238f275" name="Default" comment="" />
+=======
     <list default="true" id="3d752bf9-5fa3-480e-b7fd-d9100238f275" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/first.html" afterPath="$PROJECT_DIR$/first.html" />
     </list>
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
     <ignored path="base_syntax.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,12 +34,12 @@
         <entry file="file://$PROJECT_DIR$/first.html">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
-            <state relative-caret-position="75">
-              <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-=======
-            <state relative-caret-position="74">
+            <state relative-caret-position="435">
               <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
->>>>>>> bbd5ceac94e4f7034c35d47ac6c0a4597be6b6ab
+=======
+            <state relative-caret-position="239">
+              <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
               <folding />
             </state>
           </provider>
@@ -71,9 +76,9 @@
     <option name="x" value="-2" />
     <option name="y" value="23" />
 =======
-    <option name="x" value="943" />
-    <option name="y" value="286" />
->>>>>>> bbd5ceac94e4f7034c35d47ac6c0a4597be6b6ab
+    <option name="x" value="171" />
+    <option name="y" value="469" />
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
     <option name="width" value="1109" />
     <option name="height" value="773" />
   </component>
@@ -102,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -122,7 +128,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -198,29 +203,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1473475812824</updated>
-<<<<<<< HEAD
-      <workItem from="1473475815567" duration="1927000" />
-=======
       <workItem from="1473475815567" duration="63000" />
+<<<<<<< HEAD
       <workItem from="1473642640644" duration="6950000" />
->>>>>>> bbd5ceac94e4f7034c35d47ac6c0a4597be6b6ab
+      <workItem from="1473686736429" duration="8000" />
+=======
+      <workItem from="1473642640644" duration="10300000" />
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
-    <option name="totallyTimeSpent" value="1927000" />
+    <option name="totallyTimeSpent" value="7021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="23" width="1109" height="773" extended-state="1" />
     <editor active="false" />
 =======
-    <option name="totallyTimeSpent" value="7013000" />
+    <option name="totallyTimeSpent" value="10363000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="943" y="286" width="1109" height="773" extended-state="0" />
+    <frame x="171" y="469" width="1109" height="773" extended-state="0" />
     <editor active="true" />
->>>>>>> bbd5ceac94e4f7034c35d47ac6c0a4597be6b6ab
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -258,10 +264,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/first.html">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="75">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-=======
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -270,9 +272,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/first.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
->>>>>>> bbd5ceac94e4f7034c35d47ac6c0a4597be6b6ab
+=======
+        <state relative-caret-position="239">
+          <caret line="92" column="42" selection-start-line="92" selection-start-column="42" selection-end-line="92" selection-end-column="42" />
+>>>>>>> 03273f7585d9f85f9dc0c863f50be8adef175d7e
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="content-type" content="text/html"; charset="UTF-8">
+    <meta content="text/html"; charset="UTF-8">
     <title>Title</title>
     <style type="text/css">
         table tr,td,th{border: 1px solid #000;}
@@ -57,7 +57,57 @@
 <div>
     <input type="text" name="username" value="请输入用户名"/></br>
     <textarea  rows="4" cols="10">默认值</textarea>
+    <form method="post" action="first.html">
+        <label>nnn:</label>
+        <select multiple="multiple">
+            <option value="看书">看书</option>
+            <option value="旅游" selected="selected">旅游</option>
+            <option value="运动">运动</option>
+            <option value="购物">购物</option>
+        </select>
+    </form>
+</div>
+<div>
+    <label>性别</label><br/>
+    <label>男</label>
+    <input type="radio" value="man" name="gender" checked="checked"/>
+    <input   type="reset"   value="重置">
+    <label>女</label>
+    <input type="radio" value="woman" name="gender"/>
+    <input   type="submit"   value="提交"><br/>
 
+    <label>你对哪些运动感兴趣?</label><br/>
+    <input type="checkbox" value="1" name="gender" />
+    <label>跑步</label>
+    <input type="checkbox" value="2" name="gender"/>
+    <label> 打球</label>
+    <input type="checkbox" value="3" name="gender"/>
+    <label> 登山</label>
+    <input type="checkbox" value="4" name="gender"checked="checked"/>
+    <label> 啪啪啪</label><br/>
+</div>
+<div>
+    <form method="post" action="first.html">
+        <label>爱好:</label>
+        <select>
+            <option value="看书">看书</option>
+            <option value="旅游" selected="selected">旅游</option>
+            <option value="运动">运动</option>
+            <option value="购物">购物</option>
+        </select>
+    </form><br/>
+
+</div>
+<div>
+    <form>
+        <label for="male">男</label>
+        <input type="radio" name="gender" id="male" />
+        <br />
+        <label for="female">女</label>
+        <input type="radio" name="gender" id="female" />
+        <label for="email">输入你的邮箱地址</label>
+        <input type="email" id="email" placeholder="Enter email">
+    </form>
 </div>
 </body>
 </html>

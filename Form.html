@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<head>
+    <script type="text/javascript">
+        function multi(){
+            a = parseInt(prompt("请输入第一个数字",0))
+            b = parseInt(prompt("请输入第二个数字",0))
+            document.forms["form001"]["result"].value = a*b
+        }
+    </script>
+</head>
+<body onload="multi()">
+<form id="001" action="#" method="get">
+
+
+    <input type="email" name="user_email" title="jjk"/><br/>
+    <input type="url" name="name_url" title="jjk"/><br/>
+    <input type="number" name="user_number" title="jjk" value="1" max="100" min="1" step="1"/><
+
+    <input type="range" name="user_range" title="jjk" value="1" max="100" min="1" step="1"/><br/>
+
+    <input type="date" name="user_date" title="jjk"/><br/>
+    <input type="month" name="user_month" title="jjk"/><br/>
+    <input type="week" name="user_week" title="jjk"/><br/>
+    <input type="time" name="user_time" title="jjk" value="19:00:89" min="12:11:00" max="23:00:00"/><br/>
+    <input type="datetime" name="user_datetime" title="jjk"/><br/>
+    <input type="datetime-local" name="user_datetime_local" title="jjk"/><br/>
+    <input type="search" name="user_search" title="jjk"/><br/>
+    <!--<input type="telephone" name="user_telephone" title="jjk"/><br/>-->
+    <input type="color" name="user_color" title="jjk"/><br/>
+
+    <input type="submit" value="提交" title="jjk"/><br/>
+    <!--<button type="submit" title="jjk">提交</button>-->
+</form>
+
+<!--autocomplete-->
+<form id="002" action="#" method="post">
+    username: <input type="text" name="username" title="username" autocomplete="on"/><br/>
+    password: <input type="text" name="password" title="password" autocomplete="off"/><br/>
+    <input type="submit" value="登陆" title="submit"/><br/>
+
+</form>
+
+<!--autofocus-->
+<form id="003" action="#" method="get">
+    <p><label for="textarea">请仔细阅读许可协议</label></p>
+    <p><textarea name="textarea" id="textarea" cols="45" rows="5">xzgjhgxjhgjh</textarea>
+        许可协议</p>
+    <p>
+        <input type="submit" value="agree" autofocus="autofocus"/>
+        <input type="submit" value="disagree"/>
+    </p>
+
+</form>
+
+<form action="#" method="get" id="004">
+    请输入姓名: <input type="text" name="name" autofocus="autofocus"/>
+    <input type="submit" value="提交"/>
+</form>
+<p>下面的输入框在 form 元素之外,但因为指定的 form 属性,并且值为表单的 id, 所以该输入框仍然是表单的一部分</p>
+请输入地址: <input type="text" name="address" form="004"/>
+</body>
+<!--form属性-->
+<form action="#" method="get" id="005">
+    请输入网址: <input type="url" name="weblink" title="url" list="url_list"/>
+    <datalist id="url_list">
+        <option label="新浪" value="http://www.sina.com.cn"/>
+        <option label="QQ" value="http://www.qq.com"/>
+        <option label="谷歌" value="http://www.google.com"/>
+    </datalist>
+    <input type="submit" value="提交"/>
+</form>
+<!--multiple-->
+<form action="#" method="get" id="006">
+    select upload file: select image: <input type="file" name="img" multiple/>
+    <input type="submit" value="提交"/>
+</form>
+<!--pattern&placeholder&required-->
+<form action="#" method="get" id="007">
+    请输入国家代码: <input type="text" name="country code" pattern="[A-Za-z]{3}" title="三个字母" placeholder="请输入三个字母的国家代码" required="required"/>
+    <input type="submit" value="提交"/>
+</form>
+
+<form action="#" method="get" id="008">
+    请输入用户名: <input type="text" name="username"/><br/>
+    <input type="image" src="../../../../Downloads/支付方式.png" width="64" height="64"/>
+</form>
+<!--formaction&formenctype&formmethod&formnovalidate&formtarget-->
+<form action="#" method="get" id="009" enctype="application/x-www-form-urlencoded">
+    请输入电子邮件地址: <input type="email" name="username"/><br/>
+    <input type="submit" value="formaction" formaction="Form.html"/>
+    <input type="submit" value="formenctype" formenctype="multipart/form-data"/>
+    <input type="submit" value="formmethod" formmethod="post"/>
+    <input type="submit" value="formnovalidate" formnovalidate="formnovalidate"/>
+    <input type="submit" value="formtarget" formtarget="_blank"/>
+</form>
+
+<form action="#" method="get" id="010">
+    请输入用户名: <input type="text" name="username"/><br/>
+    请选择密码强度: <keygen name="security"/><br/>
+</form>
+
+
+<form action="#" method="get" name="form001" id="011">
+
+    两个数的乘积为: <output name="result"></output>
+
+</form>
+
+<form action="#" method="get" name="012" id="012">
+
+</form>
+
+</html>

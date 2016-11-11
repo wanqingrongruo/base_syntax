@@ -111,8 +111,16 @@
 
 </form>
 
-<form action="#" method="get" name="012" id="012">
+<form action="#" method="get" name="012" id="012" autocomplete="on">
 
+    请输入姓名: <input type="text" name="name" autofocus="autofocus"/>
+    请输入网址: <input type="url" name="weblink" title="url" list="url_list02" autocomplete="off"/>
+    <datalist id="url_list02">
+        <option label="新浪" value="http://www.sina.com.cn"/>
+        <option label="QQ" value="http://www.qq.com"/>
+        <option label="谷歌" value="http://www.google.com"/>
+    </datalist>
+    <input type="submit" value="提交"/>
 </form>
 
 </html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>canvas</title>
+     <style>
+         #myCanvas{
+             border: 1px solid #0cff4f;
+         }
+     </style>
+    <script type="text/javascript">
+        window.onload = function(){
+            var canvas = document.getElementById("myCanvas");
+            var context = canvas.getContext("2d");
+//            context.fillStyle = "#ff0000";
+//            context.fillRect(0,0,400,400);
+//           画直线
+            context.beginPath();
+            context.moveTo(50,50);
+            context.lineTo(200,50);
+            context.lineWidth = 30;
+            context.strokeStyle = "#ff0000";
+            context.lineCap = "round";
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50,100);
+            context.lineTo(200,100);
+            context.lineWidth = 30;
+            context.strokeStyle = "#ff0000";
+            context.lineCap = "square";
+            context.stroke();
+
+            context.beginPath();
+            context.moveTo(50,200);
+            context.lineTo(200,200);
+            context.lineWidth = 30;
+            context.strokeStyle = "#ff0000";
+            context.lineCap = "butt";
+            context.stroke();
+
+
+            // 弧线 arcTo()
+            context.beginPath();
+            context.moveTo(50,250);
+            context.lineTo(200,300);
+            context.arcTo(220,320,220,380,50);
+            context.lineTo(220,450);
+            context.lineWidth = 8;
+            context.strokeStyle = "#009000";
+            context.stroke();
+
+            // 二次贝塞尔曲线 quadraticCurveTo()  起点终点 一个控制点
+            context.beginPath();
+            context.moveTo(200,canvas.height/3);
+            context.quadraticCurveTo(288,0,388,150);
+            context.lineWidth =  5;
+            context.strokeStyle = "blue";
+            context.stroke();
+
+            // 三次贝塞尔曲线  bezierCurveTo()  起点终点 两个控制点
+            context.beginPath();
+            context.moveTo(500,130);
+            context.bezierCurveTo(400,10,588,10,688,170);
+            context.lineWidth =  5;
+            context.strokeStyle = "blue";
+            context.stroke();
+
+            // 合并
+            context.beginPath();
+            context.moveTo(100,20);
+            // 第一条直线
+            context.lineTo(200,160);
+            // 二次贝塞尔
+            context.quadraticCurveTo(230,200,250,120);
+            //三次贝塞尔
+            context.bezierCurveTo(290,-40,300,200,400,150);
+            // 第二条直线
+            context.lineTo(500,500);
+            context.lineWidth = 9;
+            context.strokeStyle = "black";
+            context.stroke();
+        }
+    </script>
+</head>
+<body>
+
+<canvas id="myCanvas" width="1578" height="1800">
+    您的浏览器不支持 canvas 元素,请更新或者更换你的浏览器
+</canvas>
+
+
+</body>
+</html>

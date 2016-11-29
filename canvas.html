@@ -168,7 +168,7 @@
             var context = canvas.getContext("2d");
             context.clearRect(0,0,600,600); // 清楚矩形区域中的内容
             var img = document.getElementById("vae");
-            var pat = context.createPattern(img,type)
+            var pat = context.createPattern(img,type);
             context.rect(0,0,600,600);
             context.fillStyle = pat;
             context.fill();
